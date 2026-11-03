@@ -1,0 +1,15 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE
+.idea/
+
+# Generated data
+# data/raw/
