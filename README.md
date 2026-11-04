@@ -54,9 +54,6 @@
                Sales Mart
                      |
                      v
-              Star Schema
-                     |
-                     v
                 Star Schema
                      |
               +------+------+
@@ -303,7 +300,7 @@ DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=shop_bi
 ```
-Заменить your_user и your_password на учётные данные PostgreSQL.
+Заменить `your_user` и `your_password` на учётные данные PostgreSQL.
 
 ### 5. Подготовка базы данных
 
