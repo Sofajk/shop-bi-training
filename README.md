@@ -313,6 +313,10 @@ sql/ddl/create_tables.sql
 ```
 
 После создания таблиц необходимо добавить начальную запись в `etl_watermarks` для pipeline `sales_mart`. Это контрольная точка, от которой начинается инкрементальная загрузка.
+```bash
+insert into etl_watermarks (pipeline_name, last_order_id)
+values ('sales_mart', 5000);
+```
 
 ### 6. Запуск API
 
